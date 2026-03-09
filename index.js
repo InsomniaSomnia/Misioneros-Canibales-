@@ -1,5 +1,5 @@
 const Nodo = require('./Nodo');
-const {bfs, dfs} = require('./busqueda');
+const {bfs, dfs} = require('./Buscador');
 
 // Estado inicial: 3 misioneros, 3 caníbales, barco en la izquierda
 const inicio = new Nodo(3, 3, 1);
